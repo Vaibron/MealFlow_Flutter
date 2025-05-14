@@ -1,0 +1,46 @@
+name: mealflow_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  http: ^1.2.0
+  dio: ^5.4.0
+  logger: ^2.0.0
+  http_parser: ^4.0.0
+  cached_network_image: ^3.3.1
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  connectivity_plus: ^5.0.2
+  image: ^4.2.0
+  table_calendar: ^3.0.9
+  path_provider: ^2.1.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/book_logo.png
+    - assets/male_active.png
+    - assets/male_inactive.png
+    - assets/female_active.png
+    - assets/female_inactive.png
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
